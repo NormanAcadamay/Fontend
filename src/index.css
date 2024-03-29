@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+    background-color: green; /* สีพื้นหลัง */
+    color: greenyellow; /* สีข้อความ */
+  }
+  
+  .navbar a {
+    color: white; /* สีข้อความลิงค์ */
+  }
+  
+  .navbar a:hover {
+    color: greenyellow; /* สีข้อความลิงค์เมื่อโฮเวอร์ */
+  }
+  .login-form {
+    background-image: url('https://store-images.s-microsoft.com/image/apps.2678.14492077886571533.a48e9a4a-99a7-44a9-9d97-9e8e72220a7c.6b98c506-61b7-4126-80b6-449f2ff0fb96?q=90&w=1920&h=1080');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* ให้ภาพพื้นหลังติดตามการเลื่อนหน้าจอ */
+  height: 100vh; /* ทำให้ความสูงของภาพพื้นหลังเต็มจอ */
+  width: 100%; /* ทำให้ความกว้างของภาพพื้นหลังเต็มจอ */
+  opacity: 0.8;
+
+  }
+  .login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("https://store-images.s-microsoft.com/image/apps.2678.14492077886571533.a48e9a4a-99a7-44a9-9d97-9e8e72220a7c.6b98c506-61b7-4126-80b6-449f2ff0fb96?q=90&w=1920&h=1080");
+    background-size: cover; /* ทำให้ภาพเต็มจอ */
+    background-position: center; /* จัดตำแหน่งให้อยู่ตรงกลาง */
+  }
+  
+  .form-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 400px;
+    min-width: 300px;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .label-text {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #1976d2;
+    color: #fff;
+  }
+  
+  .btn-secondary {
+    background-color: #9e9e9e;
+    color: #fff;
+  }
+  
+  .orange-text {
+    color: orange;
+  }
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+  
